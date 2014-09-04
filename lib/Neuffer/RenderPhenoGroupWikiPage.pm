@@ -392,40 +392,12 @@ sub delete_temp_file {
 
 =head1 SYNOPSIS
 
-    use Neuffer::RenderPhenoGroupWikiPage;
-    # Brief but working code example(s) here showing the most common usage(s)
-    # This section will be as far as many users bother reading,
-    # so make it as educational and exemplary as possible.
-
-=head1 DESCRIPTION
-
-    A full description of the module and its features.
-    May include numerous subsections (i.e., =head2, =head3, etc.).
-
-=head1 SUBROUTINES/METHODS
-
-
-=head1 DIAGNOSTICS
-
-    A list of every error and warning message that the module can generate
-    (even the ones that will "never happen"), with a full explanation of each
-    problem, one or more likely causes, and any suggested remedies.  (See also
-    "Documenting Errors" in PBP Chapter 13.)
-
-=head1 CONFIGURATION AND ENVIRONMENT
-
-     A full explanation of any configuration system(s) used by the module,
-     including the names and locations of any configuration files, and the
-     meaning of any environment variables or properties that can be set. These
-     descriptions must also include details of any configuration language
-     used.  (See also "Configuration Files" in PBP Chapter 19.)
+     perl Neuffer/RenderPhenoGroupWikiPage.pm --infile input_filename --outfile output_filename
 
 =head1 DEPENDENCIES
 
-     A list of all the other modules that this module relies upon, including
-     any restrictions on versions, and an indication of whether these required
-     modules are part of the standard Perl distribution, part of the module's
-     distribution, or must be installed separately.
+    Data::Section
+    Getopt::Long::Descriptive
 
 =head1 INCOMPATIBILITIES
 
@@ -434,14 +406,9 @@ sub delete_temp_file {
 =head1 BUGS AND LIMITATIONS
 
      There are no known bugs in this module.
-     Please report problems to 1.
+     Please report problems to the author.
      Patches are welcome.
 
-=head1 SEE ALSO
-
-=head1 ACKNOWLEDGEMENTS
-
-    POD templates adapted from Perl Best Practices by Damian Conway
 =cut
 
 __DATA__
