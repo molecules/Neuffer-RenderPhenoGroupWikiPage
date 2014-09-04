@@ -19,4 +19,4 @@ requires:
   Getopt::Long::Descriptive: 0
   LWP::Simple: 0
   autodie: 2.0
-version: 0.0037
+version: 0.0038
