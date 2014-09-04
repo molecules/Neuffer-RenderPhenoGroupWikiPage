@@ -33,7 +33,7 @@ my $UNDERSCORE    = q{_};
 # Dokuwiki code for horizontal line break
 my $HORIZONTAL_BREAK = "\n----\n\n";
 
-my $DEFAULT_PHENO_DIR = "$ENV{HOME}/data/projects/neuffer/data";
+my $DEFAULT_PHENO_DIR = "$ENV{HOME}/data/neuffer";
 
 my $DEFAULT_WEB_PATH  = 'http://images.maizegdb.org/db_images/Variation/mgn';
 my $CD_WEB_PATH       = 'http://images.maizegdb.org/db_images/Variation/cd';
